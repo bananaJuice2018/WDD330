@@ -1,8 +1,11 @@
 # Week2 Study Notes
 ---
 This week, I go through the following:
+
 chaper2: Programming basics.
+
 chaper3: Array, Logic, and Loops.
+
 Chaper4: Functions.
 
 ..
@@ -41,6 +44,6 @@ const name = document.querySelector("#demo").style.color = "red"; // If its id, 
 
 ```
 
-https://www.w3schools.com/jsref/met_document_queryselector.asp
+https://www.w3schools.com/jsref/met_document_queryselector.asp 
 https://www.freecodecamp.org/news/html-button-onclick-javascript-click-event-tutorial/
 
