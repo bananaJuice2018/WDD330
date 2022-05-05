@@ -72,10 +72,15 @@ let user = {
 ```
 If there's `this` inside a function, it expects to be called in an object content.
 
+### JavaScript Array.prototype.filter(), Array.prototype.map(), Array.prototype.sort()
+
+
 
 
 ### Reference of notes:
 https://www.javascripttutorial.net/javascript-array/
+https://www.javascripttutorial.net/javascript-array-sort/  
+https://www.digitalocean.com/community/tutorials/4-uses-of-javascripts-arraymap-you-should-know
 
 
 
