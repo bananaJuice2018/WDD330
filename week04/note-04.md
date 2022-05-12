@@ -54,3 +54,34 @@ form.action = '/an/other.url'
 form.addEventListener ('submit', search, false);
 ```
 
+
+#### Input Fields
+The default type of input field is `text` and we can the `value` as our initial value for the field.
+```HTML
+<label for='donation-amount'>Enter amount to donate: 
+    <input type='text' id ='donation-amount' name='donationAmount' value='10'>
+</label>
+```
+
+`checkox` are created using input fields with type='checkbox'. It often works with the `for` loop to check the property that tells us if it has been checked or not. 
+```HTML
+</label>
+<label for='strength'>Super Strength:
+    <input type='checkbox' id='strength' value='Strength' name='powers'>
+</label>
+<label for='speed'>Super Speed:
+    <input type='checkbox' id='speed' value='Super Speed' name='powers'>
+</label>
+```
+```JavaScript
+</label>
+hero.powers = [];
+for (let i=0; i < form.powers.length; i++) {
+    if (form.powers[i].checked) {
+        hero.powers.push(form.powers[i].value);
+    }
+}
+```
+
+
+
