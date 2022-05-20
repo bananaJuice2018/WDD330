@@ -84,7 +84,7 @@ for (let i=0; i < form.powers.length; i++) {
 ```
 
 ### Form Validation
-Form validation is the process of checking whether a user has entered the information into a form correctly. We start by finding the first letter of the value entered in the name field using the index notation (remember that an index of 0 represents the first letter in a string). It then checks to see if the first letter is equal to the string literal 'X', and alerts the user if this is the case. It also uses the `preventDefault()` method to stop the form from being submitted. Otherwise it returns true, which means the form is submitted as normal.
+Form validation is the process of checking whether a user has entered the information into a form correctly. We start by finding the first letter of the value entered in the name field using the index notation (remember that an index of `0` represents the first letter in a string). It then checks to see if the first letter is equal to the string literal `'X'`, and alerts the user if this is the case. It also uses the `preventDefault()` method to stop the form from being submitted. Otherwise it returns true, which means the form is submitted as normal.
 
 ```JavaScript
 form.addEventListener('submit',validate,false);
