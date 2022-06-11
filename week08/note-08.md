@@ -6,7 +6,7 @@ Week8, I go through the following:
 
 Ch8: Transforms and Transitions
 
-## Ch12: Canvas, SVG and Drag and Drop.
+Ch12: Canvas, SVG and Drag and Drop.
 
 ### Notes:
 
