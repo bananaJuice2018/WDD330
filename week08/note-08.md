@@ -28,9 +28,6 @@ Animation has undoubtedly been possible for some time with JavaScript, but nativ
 
 To animate an element in CSS, you first create a named animation, then attach it to an element in that element’s property declaration block. Animations in themselves don’t do anything; in order to animate an element, you’ll need to associate the animation with that element.
 
-#### Questions?
-
-The Fetch API provides a global `fetch()` method that only has one mandatory argument, which is the URL of the resource you wish to fetch. A very basic example would look something like the following piece of code:
 
 #### Code Example
 
