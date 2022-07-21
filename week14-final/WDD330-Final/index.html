@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>WDD330 Final Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <button type="button" class="navbar-toggler">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="cart">
+          <button type="button" id="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count-info"></span>
+          </button>
+          <div class="cart-container">
+            <div class="cart-list"></div>
+            <div class="cart-total">
+              <h3>Total: $</h3>
+              <span id="cart-total-value"></span>
+              <button type="button" class="btn btn-primary" style="margin-left: 7rem" onclick="submitOrder();">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="products">
+    <div class="container">
+      <h2>Our Sushi Menu</h2>
+      <div class="product-list">
+        <!-- Loading from JSON file here. -->
+      </div>
+    </div>
+  </section>
+  <script src="app.js"></script>
+  <script>
+    function submitOrder(){
+      let cartInfo = findCartInfo();
+      let products = getProductFromStorage(); 
+      for (var i = 0; i < products.length; i++){
+        order = products[i].name;
+      }
+      alert(JSON.stringify("Submit has been successfully."))
+      // alert(JSON.stringify(cartInfo))
+    }
+  </script>
+</body>
+
+</html>
