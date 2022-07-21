@@ -36,7 +36,7 @@ function updateCartInfo(){
 
 // Load sushi menu from Json File.
 function loadJSON(){
-    fetch('Sushi.json')
+    fetch('sushi.json')
     .then(response => response.json())
     .then(data =>{
         let html = '';
