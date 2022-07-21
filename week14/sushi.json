@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "California Roll",
+        "category" : "Crab tempura, avocado",
+        "price" : "8.00",
+        "imgSrc" : "images/sushi1.png"
+    },
+    {
+        "name" : "Dragon Roll",
+        "category" : "Crab, cucumber,topped with salmon",
+        "price" : "6.00",
+        "imgSrc" : "images/sushi2.png"
+    },
+    {
+        "name" : "Akita Roll",
+        "category" : "Shrimp tempura, spicy icrab and avocado",
+        "price" : "7.00",
+        "imgSrc" : "images/sushi3.png"
+    },
+    {
+        "name" : "Sakura Roll",
+        "category" : "Spicy tuna and cucumber",
+        "price" : "10.00",
+        "imgSrc" : "images/sushi4.png"
+    },
+    {
+        "name" : "Sashimi Roll",
+        "category" : "Cucumber salmon and avocado",
+        "price" : "12.00",
+        "imgSrc" : "images/sushi5.png"
+    },
+    {
+        "name" : "Sumo Roll",
+        "category" : "Seared tuna and avocado topped with miso sauce",
+        "price" : "15.00",
+        "imgSrc" : "images/sushi6.png"
+    }
+]
